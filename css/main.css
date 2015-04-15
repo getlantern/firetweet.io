@@ -82,7 +82,7 @@ img.title {
 }
 
 #google-play-icon {
-    width: 100px;
+    width: 124px;
 }
 
 .facebook-icon {
@@ -181,7 +181,6 @@ img.title {
         z-index: 2;
         position: relative;
         top: -326px;
-        right: 100px;
         float: left;
         width: 43%;
     }
@@ -201,7 +200,7 @@ img.title {
         margin: 0 auto;
     }
     aside {
-        left: -100px;
+        right: 100px;
     }
 }
 
