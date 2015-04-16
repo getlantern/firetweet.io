@@ -62,7 +62,7 @@ a {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px LBL, Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -78,7 +78,7 @@ body {
 }
 
 img.title {
-    padding-top: 120px;
+    padding-top: 130px;
 }
 
 #google-play-icon {
@@ -108,13 +108,6 @@ img.title {
     line-height: 1.2em;
 }
 
-.main article section,
-.main article h1,
-.main article h2,
-.main article p {
-    padding-bottom: 20px;
-}
-
 .main article h1,
 .main article h2,
 .main article a {
@@ -122,8 +115,7 @@ img.title {
 }
 
 .main article h1 {
-    font-size: 1.4em;
-    line-height: 1.4em;
+    font-size: 2.1em;
 }
 
 /* ===============
