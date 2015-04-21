@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[firetweet.io]
+file_filter = locale/<lang>.json
+source_file = locale/index-en.json
+source_lang = en
+type = KEYVALUEJSON

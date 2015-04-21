@@ -40,20 +40,20 @@
 
                 <article>
                     <header>
-                        <h1>Unblocked Tweeting.</h1>
-                        <p>FireTweet is an Android app powered by <a href="http://getlantern.org/">Lantern</a> that gives direct unblocked access to Twitter from anywhere in the world.</p>
+                        <h1 data-localize="UNBLOCKED_TWEETING">Unblocked Tweeting.</h1>
+                        <p data-localize="FIRETWEET_INTRO">FireTweet is an Android app powered by <a href="http://getlantern.org/">Lantern</a> that gives direct unblocked access to Twitter from anywhere in the world.</p>
                     </header>
                     <section>
                         <img id="google-play-icon" src="img/google-play-icon.svg" alt="Get FireTweet on Google Play" />
                     </section>
                     <section>
-                        <h2>Features include:</h2>
-                        <p>Easy-to-use: works without requiring the device be configured in any additional way.</p>
-                        <p>Gives the full experience of Twitter to those in regions where Twitter is blocked.</p>
-                        <p>Integrates <a href="http://getlantern.org/">Lantern</a> as a shared library, and using a small segment of code updates the application to use a proxy server on start.</p>
-                        <p>All HTTP traffic is routed through a distributed network of direct proxies.</p>
-                        <p>No ads!</p>
-                        <p>All Twitter API requests are processed through <a href="http://getlantern.org/">Lantern</a>.</p>
+                        <h2 data-localize="FEATURES_INCLUDE">Features include:</h2>
+                        <p data-localize="FEATURE_1">Easy-to-use: works without requiring the device be configured in any additional way.</p>
+                        <p data-localize="FEATURE_2">Gives the full experience of Twitter to those in regions where Twitter is blocked.</p>
+                        <p data-localize="FEATURE_3">Integrates <a href="http://getlantern.org/">Lantern</a> as a shared library, and using a small segment of code updates the application to use a proxy server on start.</p>
+                        <p data-localize="FEATURE_4">All HTTP traffic is routed through a distributed network of direct proxies.</p>
+                        <p data-localize="FEATURE_5">No ads!</p>
+                        <p data-localize="FEATURE_6">All Twitter API requests are processed through <a href="http://getlantern.org/">Lantern</a>.</p>
                     </section>
                     <footer>
                         <img class="facebook-icon" src="img/facebook-icon.svg" alt="Facebook"/>
@@ -66,10 +66,15 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.localize.min.js"></script>
 
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  $("[data-localize]").localize("locale/index")
+</script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
