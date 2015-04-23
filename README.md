@@ -7,7 +7,7 @@ The website for FireTweet.
 Static page
 
 ```
-compass --css-dir css
+compass watch --css-dir css
 python -m SimpleHTTPServer
 ```
 

@@ -75,7 +75,7 @@ h1, h2, a {
 
 /* line 68, ../sass/main.scss */
 img.title {
-  padding-top: 130px;
+  padding-top: 20px;
 }
 
 /* line 72, ../sass/main.scss */
@@ -132,15 +132,11 @@ h1.mobile_only {
 
 /* line 115, ../sass/main.scss */
 footer.mobile_only {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 40px;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
   font-family: LBS;
   font-size: 13px;
 }
-/* line 123, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 footer.mobile_only span {
   padding-right: 10px;
 }
@@ -148,7 +144,7 @@ footer.mobile_only span {
 /* ===============
     ALL: IE Fixes
 =============== */
-/* line 132, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .ie7 .title {
   padding-top: 20px;
 }
@@ -157,24 +153,24 @@ footer.mobile_only span {
    Media Queries
 ========================================================================== */
 /* default to mobile */
-/* line 140, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 body {
   background: #00C6F7;
   color: white;
 }
 
-/* line 145, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 .desktop_only {
   display: none;
 }
 
-/* line 149, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 .mobile_only {
   display: inherit;
   text-align: center;
   margin: 0 auto;
 }
-/* line 153, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 .mobile_only a {
   color: white;
 }
@@ -183,36 +179,41 @@ body {
   /* ========================
   INTERMEDIATE: IE Fixes
   ======================== */
-  /* line 163, ../sass/main.scss */
+  /* line 159, ../sass/main.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 167, ../sass/main.scss */
+  /* line 163, ../sass/main.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 173, ../sass/main.scss */
+  /* line 169, ../sass/main.scss */
   body {
     background: inherit;
     color: inherit;
   }
 
-  /* line 178, ../sass/main.scss */
+  /* line 174, ../sass/main.scss */
   .wrapper {
     margin: 0 5% 0 0;
   }
 
-  /* line 182, ../sass/main.scss */
+  /* line 178, ../sass/main.scss */
   .desktop_only {
     display: inherit;
   }
 
-  /* line 185, ../sass/main.scss */
+  /* line 181, ../sass/main.scss */
   .mobile_only {
     display: none;
+  }
+
+  /* line 185, ../sass/main.scss */
+  img.title {
+    padding-top: 130px;
   }
 
   /* line 189, ../sass/main.scss */

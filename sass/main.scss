@@ -66,7 +66,7 @@ h1, h2, a {
 }
 
 img.title {
-    padding-top: 130px;
+    padding-top: 20px;
 }
 
 #google-play-icon {
@@ -113,11 +113,7 @@ h1 {
 }
 
 footer.mobile_only {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 40px;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     font-family: LBS;
     font-size: 13px;
     span {
@@ -184,6 +180,10 @@ body {
     }
     .mobile_only {
         display: none;
+    }
+
+    img.title {
+        padding-top: 130px;
     }
 
     .header-container {
