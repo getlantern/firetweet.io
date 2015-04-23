@@ -245,20 +245,21 @@ body {
   #google-play-icon {
     display: inline;
     width: 124px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 1140px) {
   /* ===============
       Maximal Width
   =============== */
-  /* line 222, ../sass/main.scss */
+  /* line 223, ../sass/main.scss */
   .wrapper {
     width: 1026px;
     /* 1140*(1-10%)*/
     margin: 0 auto;
   }
 
-  /* line 226, ../sass/main.scss */
+  /* line 227, ../sass/main.scss */
   aside {
     right: 100px;
   }
@@ -266,13 +267,13 @@ body {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 235, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 240, ../sass/main.scss */
+/* line 241, ../sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -284,7 +285,7 @@ body {
   width: 1px;
 }
 
-/* line 251, ../sass/main.scss */
+/* line 252, ../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -295,21 +296,21 @@ body {
   width: auto;
 }
 
-/* line 261, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 265, ../sass/main.scss */
+/* line 266, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 267, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 271, ../sass/main.scss */
+/* line 272, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
