@@ -66,7 +66,7 @@ h1, h2, a {
 }
 
 img.title {
-    padding-top: 20px;
+    padding-top: 130px;
 }
 
 #google-play-icon {
@@ -105,11 +105,15 @@ h1 {
 }
 
 #intro_mobile {
-    width: 340px;
+    width: 360px;
     margin: 20px auto;
     padding-top: 10px;
     text-align: center;
     line-height: 1.2em;
+    em {
+        font-style: normal;
+        font-family: LBS;
+    }
 }
 
 footer.mobile_only {
@@ -180,10 +184,6 @@ body {
     }
     .mobile_only {
         display: none;
-    }
-
-    img.title {
-        padding-top: 130px;
     }
 
     .header-container {
