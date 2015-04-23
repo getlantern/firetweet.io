@@ -2,7 +2,6 @@
 
 html {
     color: #222;
-    font-size: 1em;
     line-height: 1.4;
 }
 
@@ -99,16 +98,17 @@ h1 {
         font-size: 52px;
         .main & {
             font-family: LBL;
-            font-size: 36px;
+            font-size: 32px;
         }
     }
 }
 
 #intro_mobile {
-    width: 360px;
+    width: 320px;
     margin: 20px auto;
     padding-top: 10px;
     text-align: center;
+    font-size: 19px;
     line-height: 1.2em;
     em {
         font-style: normal;
