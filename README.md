@@ -4,4 +4,9 @@ The website for FireTweet.
 
 ## Run
 
-Static page, just `python -m SimpleHTTPServer`
+Static page
+
+```
+compass --css-dir css
+python -m SimpleHTTPServer
+```

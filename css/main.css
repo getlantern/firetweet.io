@@ -1,305 +1,315 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
+/* line 3, ../sass/main.scss */
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
+/* line 9, ../sass/main.scss */
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
+/* line 14, ../sass/main.scss */
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
+/* line 19, ../sass/main.scss */
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
+/* line 28, ../sass/main.scss */
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
+/* line 37, ../sass/main.scss */
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/* line 43, ../sass/main.scss */
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
+/* line 47, ../sass/main.scss */
 a {
-    text-decoration: none;
-    color: #03C;
+  text-decoration: none;
+  color: #03C;
 }
 
+/* line 52, ../sass/main.scss */
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
-
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
-
-.wrapper {
-    margin: 0 5% 0 0;
+/* line 63, ../sass/main.scss */
+h1, h2, a {
+  font-family: LBS;
+  font-weight: normal;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-.header-container {
-    background: #00C6F7;
-    height: 388px;
-}
-
+/* line 68, ../sass/main.scss */
 img.title {
-    padding-top: 130px;
+  padding-top: 130px;
 }
 
+/* line 72, ../sass/main.scss */
 #google-play-icon {
-    width: 124px;
+  width: 84px;
+  display: block;
+  margin: 40px auto 0 auto;
 }
 
+/* line 78, ../sass/main.scss */
 .facebook-icon {
-    width: 51px;
-    margin-right: 20px;
+  width: 51px;
+  margin-right: 20px;
 }
 
+/* line 83, ../sass/main.scss */
 .twitter-icon {
-    width: 61.5px;
+  width: 61.5px;
 }
 
-/* ==============
-    MOBILE: Main
-   ============== */
-
+/* line 87, ../sass/main.scss */
 .main {
-    padding: 30px 0;
-    font-family: LBL;
+  padding: 30px 0;
+  font-family: LBL;
 }
-
+/* line 90, ../sass/main.scss */
 .main article {
-    font-size: 1.35em;
-    line-height: 1em;
+  font-size: 1.35em;
+  line-height: 1em;
 }
 
-.main article h1,
-.main article h2,
-.main article a {
-    font-family: LBS;
+/* line 96, ../sass/main.scss */
+h1 {
+  font-size: 43px;
+}
+/* line 98, ../sass/main.scss */
+h1.mobile_only {
+  font-size: 52px;
+}
+/* line 100, ../sass/main.scss */
+.main h1.mobile_only {
+  font-family: LBL;
+  font-size: 36px;
 }
 
-.main article h1 {
-    font-size: 2em;
+/* line 107, ../sass/main.scss */
+#intro_mobile {
+  width: 340px;
+  margin: 20px auto;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+/* line 115, ../sass/main.scss */
+footer.mobile_only {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  margin: 0 auto;
+  font-family: LBS;
+  font-size: 13px;
+}
+/* line 123, ../sass/main.scss */
+footer.mobile_only span {
+  padding-right: 10px;
 }
 
 /* ===============
     ALL: IE Fixes
-   =============== */
-
+=============== */
+/* line 132, ../sass/main.scss */
 .ie7 .title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
-   ========================================================================== */
+========================================================================== */
+/* default to mobile */
+/* line 140, ../sass/main.scss */
+body {
+  background: #00C6F7;
+  color: white;
+}
+
+/* line 145, ../sass/main.scss */
+.desktop_only {
+  display: none;
+}
+
+/* line 149, ../sass/main.scss */
+.mobile_only {
+  display: inherit;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 153, ../sass/main.scss */
+.mobile_only a {
+  color: white;
+}
 
 @media only screen and (min-width: 480px) {
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+  /* ========================
+  INTERMEDIATE: IE Fixes
+  ======================== */
+  /* line 163, ../sass/main.scss */
+  nav ul li {
+    display: inline;
+  }
 
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
+  /* line 167, ../sass/main.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
 }
-
 @media only screen and (min-width: 768px) {
-    .main article,
-    .header-container img {
-        float: right;
-        width: 57%;
-    }
+  /* line 173, ../sass/main.scss */
+  body {
+    background: inherit;
+    color: inherit;
+  }
 
-    .main aside {
-        z-index: 2;
-        position: relative;
-        top: -326px;
-        float: left;
-        width: 43%;
-    }
-    .main aside img {
-        width: 100%;
-    }
+  /* line 178, ../sass/main.scss */
+  .wrapper {
+    margin: 0 5% 0 0;
+  }
+
+  /* line 182, ../sass/main.scss */
+  .desktop_only {
+    display: inherit;
+  }
+
+  /* line 185, ../sass/main.scss */
+  .mobile_only {
+    display: none;
+  }
+
+  /* line 189, ../sass/main.scss */
+  .header-container {
+    background: #00C6F7;
+    height: 388px;
+  }
+
+  /* line 194, ../sass/main.scss */
+  .main article,
+  .header-container img {
+    float: right;
+    width: 57%;
+  }
+
+  /* line 200, ../sass/main.scss */
+  .main aside {
+    z-index: 2;
+    position: relative;
+    top: -326px;
+    float: left;
+    width: 43%;
+  }
+  /* line 206, ../sass/main.scss */
+  .main aside img {
+    width: 100%;
+  }
+
+  /* line 210, ../sass/main.scss */
+  #google-play-icon {
+    display: inline;
+    width: 124px;
+  }
 }
-
 @media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+  =============== */
+  /* line 222, ../sass/main.scss */
+  .wrapper {
+    width: 1026px;
+    /* 1140*(1-10%)*/
+    margin: 0 auto;
+  }
 
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140*(1-10%)*/
-        margin: 0 auto;
-    }
-    aside {
-        right: 100px;
-    }
+  /* line 226, ../sass/main.scss */
+  aside {
+    right: 100px;
+  }
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
+/* line 235, ../sass/main.scss */
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
+/* line 240, ../sass/main.scss */
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
+/* line 251, ../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
+/* line 261, ../sass/main.scss */
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
+/* line 265, ../sass/main.scss */
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+/* line 267, ../sass/main.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 271, ../sass/main.scss */
+.clearfix:after {
+  clear: both;
 }

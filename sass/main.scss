@@ -1,0 +1,274 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    text-decoration: none;
+    color: #03C;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+h1, h2, a {
+    font-family: LBS;
+    font-weight: normal;
+}
+
+img.title {
+    padding-top: 130px;
+}
+
+#google-play-icon {
+    width: 84px;
+    display: block;
+    margin: 40px auto 0 auto;
+}
+
+.facebook-icon {
+    width: 51px;
+    margin-right: 20px;
+}
+
+.twitter-icon {
+    width: 61.5px;
+}
+
+.main {
+    padding: 30px 0;
+    font-family: LBL;
+    article {
+        font-size: 1.35em;
+        line-height: 1em;
+    }
+}
+
+h1 {
+    font-size: 43px;
+    &.mobile_only {
+        font-size: 52px;
+        .main & {
+            font-family: LBL;
+            font-size: 36px;
+        }
+    }
+}
+
+#intro_mobile {
+    width: 340px;
+    margin: 20px auto;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+footer.mobile_only {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: 0 auto;
+    font-family: LBS;
+    font-size: 13px;
+    span {
+        padding-right: 10px;
+    }
+}
+
+/* ===============
+    ALL: IE Fixes
+=============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Media Queries
+========================================================================== */
+/* default to mobile */
+body {
+    background: #00C6F7;
+    color: white;
+}
+
+.desktop_only {
+    display: none;
+}
+
+.mobile_only {
+    display: inherit;
+    text-align: center;
+    margin: 0 auto;
+    a {
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    /* ========================
+    INTERMEDIATE: IE Fixes
+    ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: inherit;
+        color: inherit;
+    }
+
+    .wrapper {
+        margin: 0 5% 0 0;
+    }
+
+    .desktop_only {
+        display: inherit;
+    }
+    .mobile_only {
+        display: none;
+    }
+
+    .header-container {
+        background: #00C6F7;
+        height: 388px;
+    }
+
+    .main article,
+    .header-container img {
+        float: right;
+        width: 57%;
+    }
+
+    .main aside {
+        z-index: 2;
+        position: relative;
+        top: -326px;
+        float: left;
+        width: 43%;
+        img {
+            width: 100%;
+        }
+    }
+    #google-play-icon {
+        display: inline;
+        width: 124px;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+=============== */
+
+    .wrapper {
+        width: 1026px; /* 1140*(1-10%)*/
+        margin: 0 auto;
+    }
+    aside {
+        right: 100px;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
