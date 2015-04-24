@@ -102,21 +102,21 @@ h1 {
 }
 
 #download-icons {
-    width: 218px;
+    width: 238px;
     margin: 40px auto 0 auto;
     #google-play-icon, #download-from-github-icon {
         height: 34px;
         display: inline-block;
     }
     #google-play-icon {
-        padding-right: 10px;
+        padding-right: 30px;
     }
 }
 
 footer {
     width: 120px;
     margin: 80px auto 0 auto;
-    font-family: LBS;
+    font-family: LBL;
     font-size: 13px;
     .social-icons {
         width: 80px;
@@ -125,11 +125,11 @@ footer {
             height: 30px;
         }
         .facebook-icon {
-            padding-right: 10px;
+            padding-right: 8px;
         }
     }
     p {
-        padding-top: 20px;
+        padding-top: 15px;
     }
 }
 
