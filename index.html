@@ -47,8 +47,11 @@
                 <p id="intro_mobile" class="mobile_only" data-localize="FIRETWEET_INTRO_MOBILE">An Android app powered by <a href="http://getlantern.org/">Lantern</a> that gives <em>direct unblocked access to Twitter</em> from anywhere in the world.</p>
                 <p id="intro_desktop" class="desktop_only" data-localize="FIRETWEET_INTRO">FireTweet is an Android app powered by <a href="http://getlantern.org/">Lantern</a> that gives direct unblocked access to Twitter from anywhere in the world.</p>
               </header>
-              <section>
-                <img id="google-play-icon" src="img/google-play-icon.svg" alt="Get FireTweet on Google Play" />
+              <section id="download-icons">
+                <img id="google-play-icon" src="img/google-play-icon.png" alt="Get FireTweet on Google Play" />
+                <a href="https://github.com/getlantern/firetweet/blob/master/bin/firetweet.apk?raw=true">
+                  <img id="download-from-github-icon" src="img/download-from-github-icon.png" alt="Download FireTweet from GitHub" />
+                </a>
               </section>
               <section class="desktop_only">
                 <h2 data-localize="FEATURES_INCLUDE">Features include:</h2>
@@ -59,13 +62,18 @@
                 <p data-localize="FEATURE_5">No ads!</p>
                 <p data-localize="FEATURE_6">All Twitter API requests are processed through <a href="http://getlantern.org/">Lantern</a>.</p>
               </section>
-              <footer class="desktop_only">
-                <img class="facebook-icon" src="img/facebook-icon.svg" alt="Facebook"/>
-                <img class="twitter-icon" src="img/twitter-icon.svg" alt="Twitter"/>
-              </footer>
-              <footer class="mobile_only">
-                <span>Powered by Lantern</span>
-                <a>View Full Site</a>
+              <footer>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/FireTweet?ref=hl">
+                      <img class="desktop_only facebook-icon" src="img/facebook-icon.svg" alt="Facebook"/>
+                      <img class="mobile_only facebook-icon" src="img/facebook-icon-white.svg" alt="Facebook"/>
+                    </a>
+                    <a href="https://twitter.com/GetFireTweet">
+                    <img class="desktop_only twitter-icon" src="img/twitter-icon.svg" alt="Twitter"/>
+                    <img class="mobile_only twitter-icon" src="img/twitter-icon-white.svg" alt="Twitter"/>
+                    </a>
+                </div>
+                <p class="mobile_only">Powered by Lantern</p>
               </footer>
             </article>
 
