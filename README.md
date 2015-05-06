@@ -14,5 +14,5 @@ python -m SimpleHTTPServer
 ## Deploy
 
 ```
-s3cmd sync --recursive --exclude ".git/*" setacl --acl-public --recursive . s3://firetweet.io
+s3cmd sync --recursive --exclude ".git/*" --exclude ".DS_Store" --exclude ".sass-cache/*" setacl --acl-public --recursive . s3://firetweet.io
 ```
