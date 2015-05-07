@@ -244,9 +244,9 @@ body {
   .main aside {
     z-index: 2;
     position: relative;
-    top: -326px;
+    top: -310px;
     float: left;
-    width: 43%;
+    width: 36%;
   }
   /* line 214, ../sass/main.scss */
   .main aside img {
@@ -300,7 +300,7 @@ body {
 
   /* line 257, ../sass/main.scss */
   aside {
-    right: 100px;
+    right: 5%;
   }
 }
 /* ==========================================================================
