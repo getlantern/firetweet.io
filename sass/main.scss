@@ -65,7 +65,7 @@ h1, h2, a {
 }
 
 img.title {
-    padding-top: 130px;
+    padding-top: 30px;
 }
 
 .main {
@@ -73,13 +73,13 @@ img.title {
     font-family: LBL;
     article {
         font-size: 1.35em;
-        line-height: 1em;
+        line-height: 1.2em;
     }
 }
 
 h1 {
     font-size: 43px;
-    &.mobile_only {
+    &.mobile-only {
         font-size: 52px;
         .main & {
             font-family: LBL;
@@ -102,15 +102,8 @@ h1 {
 }
 
 #download-icons {
-    width: 238px;
+    width: 140px;
     margin: 40px auto 0 auto;
-    #google-play-icon, #download-from-github-icon {
-        height: 34px;
-        display: inline-block;
-    }
-    #google-play-icon {
-        padding-right: 30px;
-    }
 }
 
 footer {
@@ -150,11 +143,11 @@ body {
     color: white;
 }
 
-.desktop_only {
+.desktop-only {
     display: none;
 }
 
-.mobile_only {
+.mobile-only {
     display: inherit;
     text-align: center;
     margin: 0 auto;
@@ -187,16 +180,19 @@ body {
         margin: 0 5% 0 0;
     }
 
-    .desktop_only {
+    .desktop-only {
         display: inherit;
     }
-    .mobile_only {
+    .mobile-only {
         display: none;
     }
 
     .header-container {
         background: #00C6F7;
         height: 388px;
+        .title {
+          padding-top: 130px;
+        }
     }
 
     .main article,
@@ -257,7 +253,10 @@ body {
     aside {
         right: 5%;
     }
-}
+    h1 {
+      font-size: 61px;
+    }
+  }
 
 /* ==========================================================================
    Helper classes

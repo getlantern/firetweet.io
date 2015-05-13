@@ -1,14 +1,14 @@
 {
   "TITLE": "FireTweet Powered by Lantern",
-  "FIRETWEET_ON_A_PHONE": "FireTweet On a Phone",
   "UNBLOCKED_TWEETING": "Unblocked Tweeting.",
   "FIRETWEET_INTRO": "FireTweet is an Android app powered by <a href='http://getlantern.org/'>Lantern</a> that gives direct unblocked access to Twitter from anywhere in the world.",
+  "FIRETWEET_INTRO_MOBILE": "An Android app powered by <a href='http://getlantern.org/'>Lantern</a> that gives <em>direct unblocked access to Twitter</em> from anywhere in the world.",
   "GET_ON_GOOGLE_PLAY": "Get FireTweet on Google Play",
   "FEATURES_INCLUDE": "Features include:",
-  "FEATURE_1": "Easy-to-use: works without requiring the device be configured in any additional way.",
-  "FEATURE_2": "Gives the full experience of Twitter to those in regions where Twitter is blocked.",
-  "FEATURE_3": "Integrates <a href='http://getlantern.org/'>Lantern</a> as a shared library, and using a small segment of code updates the application to use a proxy server on start.",
-  "FEATURE_4": "All HTTP traffic is routed through a distributed network of direct proxies.",
-  "FEATURE_5": "No ads!",
-  "FEATURE_6": "All Twitter API requests are processed through <a href='http://getlantern.org/'>Lantern</a>."
+  "FEATURE_1": "FREE and available on Android",
+  "FEATURE_2": "No Ads",
+  "FEATURE_3": "Easy-to-use: no extra set-up required",
+  "FEATURE_4": "Gives the full experience of Twitter to users in regions where Twitter is blocked",
+  "FEATURE_5": "Automatically integrates with Twitter, use an existing account or create a new one",
+  "FEATURE_6": "All HTTP traffic is routed through a distributed network of direct proxies"
 }

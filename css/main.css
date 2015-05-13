@@ -74,7 +74,7 @@ h1, h2, a {
 
 /* line 67, ../sass/main.scss */
 img.title {
-  padding-top: 130px;
+  padding-top: 30px;
 }
 
 /* line 71, ../sass/main.scss */
@@ -85,7 +85,7 @@ img.title {
 /* line 74, ../sass/main.scss */
 .main article {
   font-size: 1.35em;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 /* line 80, ../sass/main.scss */
@@ -93,11 +93,11 @@ h1 {
   font-size: 43px;
 }
 /* line 82, ../sass/main.scss */
-h1.mobile_only {
+h1.mobile-only {
   font-size: 52px;
 }
 /* line 84, ../sass/main.scss */
-.main h1.mobile_only {
+.main h1.mobile-only {
   font-family: LBL;
   font-size: 32px;
 }
@@ -119,40 +119,31 @@ h1.mobile_only {
 
 /* line 104, ../sass/main.scss */
 #download-icons {
-  width: 238px;
+  width: 140px;
   margin: 40px auto 0 auto;
 }
-/* line 107, ../sass/main.scss */
-#download-icons #google-play-icon, #download-icons #download-from-github-icon {
-  height: 34px;
-  display: inline-block;
-}
-/* line 111, ../sass/main.scss */
-#download-icons #google-play-icon {
-  padding-right: 30px;
-}
 
-/* line 116, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 footer {
   width: 120px;
   margin: 80px auto 0 auto;
   font-family: LBL;
   font-size: 13px;
 }
-/* line 121, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 footer .social-icons {
   width: 80px;
   margin: 0 auto;
 }
-/* line 124, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 footer .social-icons img {
   height: 30px;
 }
-/* line 127, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 footer .social-icons .facebook-icon {
   padding-right: 8px;
 }
-/* line 131, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 footer p {
   padding-top: 15px;
 }
@@ -160,7 +151,7 @@ footer p {
 /* ===============
     ALL: IE Fixes
 =============== */
-/* line 140, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .ie7 .title {
   padding-top: 20px;
 }
@@ -169,25 +160,25 @@ footer p {
    Media Queries
 ========================================================================== */
 /* default to mobile */
-/* line 148, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 body {
   background: #00C6F7;
   color: white;
 }
 
-/* line 153, ../sass/main.scss */
-.desktop_only {
+/* line 146, ../sass/main.scss */
+.desktop-only {
   display: none;
 }
 
-/* line 157, ../sass/main.scss */
-.mobile_only {
+/* line 150, ../sass/main.scss */
+.mobile-only {
   display: inherit;
   text-align: center;
   margin: 0 auto;
 }
-/* line 161, ../sass/main.scss */
-.mobile_only a {
+/* line 154, ../sass/main.scss */
+.mobile-only a {
   color: white;
 }
 
@@ -195,52 +186,56 @@ body {
   /* ========================
   INTERMEDIATE: IE Fixes
   ======================== */
-  /* line 171, ../sass/main.scss */
+  /* line 164, ../sass/main.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 175, ../sass/main.scss */
+  /* line 168, ../sass/main.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 181, ../sass/main.scss */
+  /* line 174, ../sass/main.scss */
   body {
     background: inherit;
     color: inherit;
   }
 
-  /* line 186, ../sass/main.scss */
+  /* line 179, ../sass/main.scss */
   .wrapper {
     margin: 0 5% 0 0;
   }
 
-  /* line 190, ../sass/main.scss */
-  .desktop_only {
+  /* line 183, ../sass/main.scss */
+  .desktop-only {
     display: inherit;
   }
 
-  /* line 193, ../sass/main.scss */
-  .mobile_only {
+  /* line 186, ../sass/main.scss */
+  .mobile-only {
     display: none;
   }
 
-  /* line 197, ../sass/main.scss */
+  /* line 190, ../sass/main.scss */
   .header-container {
     background: #00C6F7;
     height: 388px;
   }
+  /* line 193, ../sass/main.scss */
+  .header-container .title {
+    padding-top: 130px;
+  }
 
-  /* line 202, ../sass/main.scss */
+  /* line 198, ../sass/main.scss */
   .main article,
   .header-container img {
     float: right;
     width: 57%;
   }
 
-  /* line 208, ../sass/main.scss */
+  /* line 204, ../sass/main.scss */
   .main aside {
     z-index: 2;
     position: relative;
@@ -248,41 +243,41 @@ body {
     float: left;
     width: 33%;
   }
-  /* line 214, ../sass/main.scss */
+  /* line 210, ../sass/main.scss */
   .main aside img {
     width: 100%;
   }
 
-  /* line 218, ../sass/main.scss */
+  /* line 214, ../sass/main.scss */
   #download-icons {
     width: auto;
     margin: 0;
   }
-  /* line 221, ../sass/main.scss */
+  /* line 217, ../sass/main.scss */
   #download-icons #google-play-icon, #download-icons #download-from-github-icon {
     display: inline;
     height: 44px;
   }
 
-  /* line 226, ../sass/main.scss */
+  /* line 222, ../sass/main.scss */
   footer {
     width: auto;
     font-size: 13px;
   }
-  /* line 229, ../sass/main.scss */
+  /* line 225, ../sass/main.scss */
   footer .social-icons {
     width: auto;
   }
-  /* line 231, ../sass/main.scss */
+  /* line 227, ../sass/main.scss */
   footer .social-icons img {
     height: auto;
   }
-  /* line 234, ../sass/main.scss */
+  /* line 230, ../sass/main.scss */
   footer .social-icons .facebook-icon {
     width: 51px;
     margin-right: 20px;
   }
-  /* line 239, ../sass/main.scss */
+  /* line 235, ../sass/main.scss */
   footer .social-icons .twitter-icon {
     width: 61.5px;
   }
@@ -291,28 +286,33 @@ body {
   /* ===============
       Maximal Width
   =============== */
-  /* line 253, ../sass/main.scss */
+  /* line 249, ../sass/main.scss */
   .wrapper {
     width: 1026px;
     /* 1140*(1-10%)*/
     margin: 0 auto;
   }
 
-  /* line 257, ../sass/main.scss */
+  /* line 253, ../sass/main.scss */
   aside {
     right: 5%;
+  }
+
+  /* line 256, ../sass/main.scss */
+  h1 {
+    font-size: 61px;
   }
 }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 266, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 271, ../sass/main.scss */
+/* line 270, ../sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -324,7 +324,7 @@ body {
   width: 1px;
 }
 
-/* line 282, ../sass/main.scss */
+/* line 281, ../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -335,21 +335,21 @@ body {
   width: auto;
 }
 
-/* line 292, ../sass/main.scss */
+/* line 291, ../sass/main.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 296, ../sass/main.scss */
+/* line 295, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 298, ../sass/main.scss */
+/* line 297, ../sass/main.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 302, ../sass/main.scss */
+/* line 301, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
