@@ -18,44 +18,12 @@ html {
 }
 
 /* line 18, ../sass/main.scss */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/* line 27, ../sass/main.scss */
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/* line 36, ../sass/main.scss */
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 42, ../sass/main.scss */
-textarea {
-  resize: vertical;
-}
-
-/* line 46, ../sass/main.scss */
 a {
   text-decoration: none;
   color: #03C;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -64,45 +32,41 @@ a {
 }
 
 /* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-/* line 62, ../sass/main.scss */
+Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+========================================================================== */
+/* line 34, ../sass/main.scss */
 h1, h2, a {
   font-family: LBS;
   font-weight: normal;
 }
 
-/* line 67, ../sass/main.scss */
-img.title {
+/* line 40, ../sass/main.scss */
+.header-container .logo {
   padding-top: 30px;
 }
 
-/* line 71, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .main {
   padding: 30px 0;
   font-family: LBL;
 }
-/* line 74, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .main article {
   font-size: 1.35em;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
-/* line 80, ../sass/main.scss */
-h1 {
-  font-size: 43px;
-}
-/* line 82, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 h1.mobile-only {
   font-size: 52px;
 }
-/* line 84, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 .main h1.mobile-only {
   font-family: LBL;
   font-size: 32px;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 #intro_mobile {
   width: 320px;
   margin: 20px auto;
@@ -111,73 +75,73 @@ h1.mobile-only {
   font-size: 19px;
   line-height: 1.2em;
 }
-/* line 98, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 #intro_mobile em {
   font-style: normal;
   font-family: LBS;
 }
 
-/* line 104, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 #download-icons {
   width: 140px;
   margin: 40px auto 0 auto;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 footer {
   width: 120px;
   margin: 80px auto 0 auto;
   font-family: LBL;
   font-size: 13px;
 }
-/* line 114, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 footer .social-icons {
   width: 80px;
   margin: 0 auto;
 }
-/* line 117, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 footer .social-icons img {
   height: 30px;
 }
-/* line 120, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 footer .social-icons .facebook-icon {
   padding-right: 8px;
 }
-/* line 124, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 footer p {
   padding-top: 15px;
 }
 
 /* ===============
-    ALL: IE Fixes
+ALL: IE Fixes
 =============== */
-/* line 133, ../sass/main.scss */
-.ie7 .title {
+/* line 105, ../sass/main.scss */
+.ie7 .logo {
   padding-top: 20px;
 }
 
 /* ==========================================================================
-   Media Queries
+Media Queries
 ========================================================================== */
 /* default to mobile */
-/* line 141, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 body {
   background: #00C6F7;
   color: white;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 .desktop-only {
   display: none;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .mobile-only {
   display: inherit;
   text-align: center;
   margin: 0 auto;
 }
-/* line 154, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 .mobile-only a {
   color: white;
 }
@@ -186,170 +150,111 @@ body {
   /* ========================
   INTERMEDIATE: IE Fixes
   ======================== */
-  /* line 164, ../sass/main.scss */
+  /* line 136, ../sass/main.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 168, ../sass/main.scss */
+  /* line 140, ../sass/main.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 174, ../sass/main.scss */
+  /* line 146, ../sass/main.scss */
   body {
     background: inherit;
     color: inherit;
   }
 
-  /* line 179, ../sass/main.scss */
+  /* line 151, ../sass/main.scss */
   .wrapper {
-    margin: 0 5% 0 0;
+    width: 768px;
+    margin: 0 auto;
   }
 
-  /* line 183, ../sass/main.scss */
+  /* line 156, ../sass/main.scss */
   .desktop-only {
     display: inherit;
   }
 
-  /* line 186, ../sass/main.scss */
+  /* line 159, ../sass/main.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 190, ../sass/main.scss */
+  /* line 163, ../sass/main.scss */
   .header-container {
     background: #00C6F7;
-    height: 388px;
+    height: 218px;
   }
-  /* line 193, ../sass/main.scss */
-  .header-container .title {
-    padding-top: 130px;
-  }
-
-  /* line 198, ../sass/main.scss */
-  .main article,
-  .header-container img {
-    float: right;
-    width: 57%;
+  /* line 166, ../sass/main.scss */
+  .header-container .logo {
+    padding: 60px 0 0 300px;
   }
 
-  /* line 204, ../sass/main.scss */
+  /* line 172, ../sass/main.scss */
   .main aside {
+    float: left;
+  }
+  /* line 174, ../sass/main.scss */
+  .main aside img {
     z-index: 2;
     position: relative;
-    top: -310px;
-    float: left;
-    width: 33%;
+    top: -172px;
   }
-  /* line 210, ../sass/main.scss */
-  .main aside img {
-    width: 100%;
+  /* line 180, ../sass/main.scss */
+  .main article {
+    padding-left: 300px;
+    width: 480px;
+  }
+  /* line 183, ../sass/main.scss */
+  .main article h1 {
+    font-size: 50px;
   }
 
-  /* line 214, ../sass/main.scss */
+  /* line 189, ../sass/main.scss */
   #download-icons {
     width: auto;
     margin: 0;
   }
-  /* line 217, ../sass/main.scss */
-  #download-icons #google-play-icon, #download-icons #download-from-github-icon {
-    display: inline;
-    height: 44px;
-  }
 
-  /* line 222, ../sass/main.scss */
+  /* line 193, ../sass/main.scss */
   footer {
     width: auto;
     font-size: 13px;
   }
-  /* line 225, ../sass/main.scss */
+  /* line 196, ../sass/main.scss */
   footer .social-icons {
     width: auto;
   }
-  /* line 227, ../sass/main.scss */
+  /* line 198, ../sass/main.scss */
   footer .social-icons img {
     height: auto;
   }
-  /* line 230, ../sass/main.scss */
+  /* line 201, ../sass/main.scss */
   footer .social-icons .facebook-icon {
     width: 51px;
     margin-right: 20px;
   }
-  /* line 235, ../sass/main.scss */
+  /* line 206, ../sass/main.scss */
   footer .social-icons .twitter-icon {
     width: 61.5px;
   }
 }
-@media only screen and (min-width: 1140px) {
-  /* ===============
-      Maximal Width
-  =============== */
-  /* line 249, ../sass/main.scss */
-  .wrapper {
-    width: 1026px;
-    /* 1140*(1-10%)*/
-    margin: 0 auto;
-  }
-
-  /* line 253, ../sass/main.scss */
-  aside {
-    right: 5%;
-  }
-
-  /* line 256, ../sass/main.scss */
-  h1 {
-    font-size: 61px;
-  }
-}
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
-/* line 265, ../sass/main.scss */
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
-
-/* line 270, ../sass/main.scss */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-/* line 281, ../sass/main.scss */
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
-
-/* line 291, ../sass/main.scss */
-.invisible {
-  visibility: hidden;
-}
-
-/* line 295, ../sass/main.scss */
+Helper classes
+========================================================================== */
+/* line 218, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 297, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 301, ../sass/main.scss */
+/* line 224, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
