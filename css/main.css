@@ -96,7 +96,7 @@ footer {
 }
 /* line 86, ../sass/main.scss */
 footer .social-icons {
-  width: 80px;
+  width: 111px;
   margin: 0 auto;
 }
 /* line 89, ../sass/main.scss */
@@ -230,31 +230,26 @@ body {
   }
   /* line 198, ../sass/main.scss */
   footer .social-icons img {
-    height: auto;
+    height: 51px;
   }
   /* line 201, ../sass/main.scss */
-  footer .social-icons .facebook-icon {
-    width: 51px;
+  footer .social-icons a:not(:last-child) img {
     margin-right: 20px;
-  }
-  /* line 206, ../sass/main.scss */
-  footer .social-icons .twitter-icon {
-    width: 61.5px;
   }
 }
 /* ==========================================================================
 Helper classes
 ========================================================================== */
-/* line 218, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 220, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 224, ../sass/main.scss */
+/* line 219, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }

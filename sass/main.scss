@@ -84,7 +84,7 @@ footer {
   font-family: LBL;
   font-size: 13px;
   .social-icons {
-    width: 80px;
+    width: 111px;
     margin: 0 auto;
     img {
       height: 30px;
@@ -196,15 +196,10 @@ width: 768px;
     .social-icons {
       width: auto;
       img {
-        height: auto;
+        height: 51px;
       }
-      .facebook-icon {
-        width: 51px;
+      a:not(:last-child) img {
         margin-right: 20px;
-      }
-
-      .twitter-icon {
-        width: 61.5px;
       }
     }
   }
