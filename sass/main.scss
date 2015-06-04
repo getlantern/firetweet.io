@@ -84,13 +84,17 @@ footer {
   font-family: LBL;
   font-size: 13px;
   .social-icons {
-    width: 111px;
+    width: 114px;
     margin: 0 auto;
     img {
       height: 30px;
     }
     .facebook-icon {
+      padding-left: 1px;
       padding-right: 8px;
+    }
+    .github-icon {
+      height: 32px;
     }
   }
   p {
@@ -149,7 +153,7 @@ nav ul li {
   }
 
   .wrapper {
-width: 768px;
+    width: 768px;
     margin: 0 auto;
   }
 
@@ -197,6 +201,9 @@ width: 768px;
       width: auto;
       img {
         height: 51px;
+        &.github-icon {
+          height: 54px;
+        }
       }
       a:not(:last-child) img {
         margin-right: 20px;

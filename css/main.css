@@ -96,7 +96,7 @@ footer {
 }
 /* line 86, ../sass/main.scss */
 footer .social-icons {
-  width: 111px;
+  width: 114px;
   margin: 0 auto;
 }
 /* line 89, ../sass/main.scss */
@@ -105,9 +105,14 @@ footer .social-icons img {
 }
 /* line 92, ../sass/main.scss */
 footer .social-icons .facebook-icon {
+  padding-left: 1px;
   padding-right: 8px;
 }
 /* line 96, ../sass/main.scss */
+footer .social-icons .github-icon {
+  height: 32px;
+}
+/* line 100, ../sass/main.scss */
 footer p {
   padding-top: 15px;
 }
@@ -115,7 +120,7 @@ footer p {
 /* ===============
 ALL: IE Fixes
 =============== */
-/* line 105, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .ie7 .logo {
   padding-top: 20px;
 }
@@ -124,24 +129,24 @@ ALL: IE Fixes
 Media Queries
 ========================================================================== */
 /* default to mobile */
-/* line 113, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 body {
   background: #00C6F7;
   color: white;
 }
 
-/* line 118, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .desktop-only {
   display: none;
 }
 
-/* line 122, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 .mobile-only {
   display: inherit;
   text-align: center;
   margin: 0 auto;
 }
-/* line 126, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 .mobile-only a {
   color: white;
 }
@@ -150,89 +155,93 @@ body {
   /* ========================
   INTERMEDIATE: IE Fixes
   ======================== */
-  /* line 136, ../sass/main.scss */
+  /* line 140, ../sass/main.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 140, ../sass/main.scss */
+  /* line 144, ../sass/main.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 146, ../sass/main.scss */
+  /* line 150, ../sass/main.scss */
   body {
     background: inherit;
     color: inherit;
   }
 
-  /* line 151, ../sass/main.scss */
+  /* line 155, ../sass/main.scss */
   .wrapper {
     width: 768px;
     margin: 0 auto;
   }
 
-  /* line 156, ../sass/main.scss */
+  /* line 160, ../sass/main.scss */
   .desktop-only {
     display: inherit;
   }
 
-  /* line 159, ../sass/main.scss */
+  /* line 163, ../sass/main.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 163, ../sass/main.scss */
+  /* line 167, ../sass/main.scss */
   .header-container {
     background: #00C6F7;
     height: 218px;
   }
-  /* line 166, ../sass/main.scss */
+  /* line 170, ../sass/main.scss */
   .header-container .logo {
     padding: 60px 0 0 300px;
   }
 
-  /* line 172, ../sass/main.scss */
+  /* line 176, ../sass/main.scss */
   .main aside {
     float: left;
   }
-  /* line 174, ../sass/main.scss */
+  /* line 178, ../sass/main.scss */
   .main aside img {
     z-index: 2;
     position: relative;
     top: -172px;
   }
-  /* line 180, ../sass/main.scss */
+  /* line 184, ../sass/main.scss */
   .main article {
     padding-left: 300px;
     width: 480px;
   }
-  /* line 183, ../sass/main.scss */
+  /* line 187, ../sass/main.scss */
   .main article h1 {
     font-size: 50px;
   }
 
-  /* line 189, ../sass/main.scss */
+  /* line 193, ../sass/main.scss */
   #download-icons {
     width: auto;
     margin: 0;
   }
 
-  /* line 193, ../sass/main.scss */
+  /* line 197, ../sass/main.scss */
   footer {
     width: auto;
     font-size: 13px;
   }
-  /* line 196, ../sass/main.scss */
+  /* line 200, ../sass/main.scss */
   footer .social-icons {
     width: auto;
   }
-  /* line 198, ../sass/main.scss */
+  /* line 202, ../sass/main.scss */
   footer .social-icons img {
     height: 51px;
   }
-  /* line 201, ../sass/main.scss */
+  /* line 204, ../sass/main.scss */
+  footer .social-icons img.github-icon {
+    height: 54px;
+  }
+  /* line 208, ../sass/main.scss */
   footer .social-icons a:not(:last-child) img {
     margin-right: 20px;
   }
@@ -240,16 +249,16 @@ body {
 /* ==========================================================================
 Helper classes
 ========================================================================== */
-/* line 213, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 215, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 219, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
