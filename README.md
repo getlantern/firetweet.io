@@ -1,6 +1,6 @@
 # FireTweet.io
 
-The website for FireTweet.
+The website for FireTweet, an Twitter client on Android.
 
 ## Run
 
