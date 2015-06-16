@@ -1,0 +1,13 @@
+{
+    "FireTweet Powered by Lantern": "FireTweet,Lantern tarafından desteklenmektedir",
+    "Unblocked Tweeting.": "Engelsiz Tweetleme",
+    "FireTweet is an Android app powered by <a href='http://getlantern.org/'>Lantern</a> that gives direct unblocked access to Twitter from anywhere in the world.": "FireTweet, Twitter'a dünyanın herhangi bir yerinden direkt engellemesiz erişim veren, <a href='http://getlantern.org/'>Lantern</a> tarafından desteklenen bir Android uygulamasıdır.",
+    "An Android app powered by <a href='http://getlantern.org/'>Lantern</a> that gives <em>direct unblocked access to Twitter</em> from anywhere in the world.": "Twitter'a dünyanın herhangi bir yerinden <em>direkt engellemesiz erişim</em> veren, <a href='http://getlantern.org/'>Lantern</a> tarafından desteklenen bir Android uygulamasıdır.",
+    "Features include:": "Özellikler:",
+    "FREE and available on Android": "Android için hazır ve ÜCRETSİZ",
+    "No Ads": "Reklamsız",
+    "Easy-to-use: no extra set-up required": "Kolay kullanımİ: fazladan kurulum yapmanız gerekmez",
+    "Gives the full experience of Twitter to users in regions where Twitter is blocked": "Twitter'ın engellendiği bölgelerdeki kullanıcılara tam bir Twitter deneyimi sunar",
+    "Automatically integrates with Twitter, use an existing account or create a new one": "Twitter ile otomatik entegre olur, var olan bir hesabı kullanabilir veya yeni bir hesap oluşturabilirsiniz",
+    "All HTTP traffic is routed through a distributed network of direct proxies": "Tüm HTTP trafiği direkt vekil sunuculardan oluşan dağıtılmış bir ağ üzerinden akar"
+}
