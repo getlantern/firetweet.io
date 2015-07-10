@@ -1,13 +1,13 @@
 {
     "TITLE": "FireTweet技术支持：Lantern",
     "UNBLOCKED_TWEETING": "无界发推",
-    "FIRETWEET_INTRO": "FireTweet是一个由 <a href='https://getlantern.org/'>Lantern</a> 驱动的Android应用，可以让你在世界各地不受限制地访问Twitter。",
-    "FIRETWEET_INTRO_MOBILE": "一个由 <a href='https://getlantern.org/'>Lantern</a> 驱动的Android应用，可以让你在世界各地<em>不受限制地访问Twitter</em>。",
-    "FEATURES_INCLUDE": "功能介绍：",
+    "FIRETWEET_INTRO": "FireTweet是一个由 <a href='https://getlantern.org/'>Lantern</a> 提供技术支持的Android应用，可以让你在世界各地不受限制地访问Twitter。",
+    "FIRETWEET_INTRO_MOBILE": "一个由 <a href='https://getlantern.org/'>Lantern</a> 提供技术支持的Android应用，可以让你在世界各地<em>不受限制地访问Twitter</em>。",
+    "FEATURES_INCLUDE": "功能包括：",
     "FEATURE_1": "Android免费应用",
     "FEATURE_2": "无广告",
-    "FEATURE_3": "易用，无需额外设置",
-    "FEATURE_4": "在封锁地区，让用户完整地体验Twitter之趣",
+    "FEATURE_3": "简单易用，无需额外设置",
+    "FEATURE_4": "在封锁地区，让用户完整地体验Twitter功能",
     "FEATURE_5": "自动与Twitter集成，使用现有帐户或者新建",
     "FEATURE_6": "所有网络流量通过分布式的网络直接转发"
 }
